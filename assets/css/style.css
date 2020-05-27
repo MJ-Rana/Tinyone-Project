@@ -1,0 +1,148 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Reset code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+/* Header Css start */
+header{
+  background-color: #fcdb00;
+  padding: 10px 0;
+}
+.menu ul li a{
+  display: block;
+  color: #010101 !important;
+  padding:0 50px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 0px 30px;
+}
+/* slider section Css */
+
+.slider{
+  background-color: #fcdb00;
+  padding: 50px 0;
+}
+.inspire{
+  color: #1a1818;
+  margin-top: 80px;
+
+}
+.inspire h2{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.inspire h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.inspire ul li{
+  font-size: 40px;
+  padding: 0 10px;
+}
+.custom-indicator{
+  bottom: -50px;
+}
+.custom-indicator li{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: 0.3s all ease;
+}
+.custom-indicator li:hover{
+  background-color: #010101;
+}
+.custom-indicator .active{
+  background-color: #010101;
+}
+/* Features section CSS */
+.Features{
+  padding: 80px 0;
+}
+.title h2{
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+}
+.title p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #010101;
+}
+.icon i{
+  font-size: 50px;
+}
+.icon-content h2{
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101;
+  text-align: left;
+}
+.icon-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #010101;
+  text-align: left;
+}
+.features-row-padding{
+  padding-top: 60px;
+}
+/* contact section css */
+.contact{
+  background-color: #010101;
+  padding-top: 80px;
+}
+.contact .yellow{
+  color: #fcdb00;
+}
+.contact .ash{
+  color: #898989;
+  font-size: 16px;
+}
+.input-custom{
+  padding: 23px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #898989;
+}
+.btn-custom{
+  background-color: #fcdb00;
+  text-transform: uppercase;
+  padding: 10px 35px;
+  color: #010101;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.social ul li{
+  font-size: 50px;
+  color:  #fcdb00;
+}
+/* footer section css */
+.footer{
+  padding: 20px 0;
+  background-color: #010101;
+  color: #ffffff;
+}
+.footer-menu ul li{
+  list-style-type: none;
+}
+.footer-menu ul li a{
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-menu ul li a:hover{
+  color: #fcdb00 !important;
+}

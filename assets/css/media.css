@@ -1,0 +1,105 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+            .inspire {
+          margin-top: 0px;
+          }
+          .inspire h2 {
+        font-size: 28px;
+        }
+        .menu{
+          text-align:center;
+        }
+        .t-center{
+          text-align: center !important;
+        }
+        .m-bottom{
+          margin-bottom: 15px;
+        }
+        .mt-custom{
+          margin-top: 15px;
+        }
+        .title h2 {
+          font-size: 31px;
+        }
+        .contact .ash {
+          font-size: 14px;
+        }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+            .inspire {
+          margin-top: 0px;
+          }
+          .menu{
+            text-align: center;
+          }
+          pr-0{
+            padding-right: 15px !important;
+          }
+          .icon-content h2 {
+            text-align: center;
+          }
+          .icon-content p {
+            text-align: center;
+          }
+          .icon i {
+            padding: 14px;
+          }
+          .features-row-padding {
+            padding-top: 20px;
+          }
+          .Features {
+            padding: 60px 0;
+          }
+          .title h2 {
+            font-size: 30px;
+          }
+          .title p {
+          font-size: 15px;
+          }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+          .inspire {
+        margin-top: 0px;
+        }
+          .inspire h2 {
+        font-size: 27px;
+        }
+        .menu{
+          text-align: center;
+        }
+        .icon-content h2 {
+          font-size: 21px;
+        }
+        .title h2 {
+          font-size: 30px;
+        }
+        .title p {
+        font-size: 18px;
+        }
+        .Features {
+          padding: 65px 0;
+        }
+        .features-row-padding{
+          padding-top: 28px;
+        }
+
+	}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+
+}
